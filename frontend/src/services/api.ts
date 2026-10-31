@@ -9,8 +9,7 @@ import {
   SystemHealth
 } from '../types';
 
-const API_BASE = '/api';
-
+const API_BASE = import.meta.env.VITE_API_URL || '/api';
 export const apiService = {
   // Health
   async getHealth(): Promise<SystemHealth> {
