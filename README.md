@@ -166,7 +166,11 @@ cd frontend
 npm.cmd install
 npm.cmd run dev
 ```
-*Application workspace will be available at [http://localhost:5173](http://localhost:5173).*
+## Live Application
+
+Frontend: https://scamshield-india-pink.vercel.app/
+
+Backend API Documentation: https://scamshield-india.onrender.com/docs
 
 ---
 
